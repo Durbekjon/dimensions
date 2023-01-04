@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Dosis', sans-serif;
+     width: 1340px;
+}
+header{
+     background-color: rgba(0, 0, 0, 0.5);
+     width: 1340px;
+     position: fixed;
+     height: 60px;
+}
+body{
+     background: url(./img/bg.jpg) ;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 1300px;
+     height: 170vh;
+     /* height: 625px; */
+}
+.banner h1{
+     padding-top: 200px;
+     color: Coral;
+     margin-bottom: 380px;
+}
+.row{
+     border-bottom: 3px solid #fff;
+     margin-top: 360px;
+}
+footer{
+     text-align: center;
+     padding-left: 100px;
+     padding-top: 15px;
+     background-color: rgba(0, 0, 0, 0.8);
+     width: 1340px;
+}
