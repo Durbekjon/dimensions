@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Dosis', sans-serif;
+}
+header {
+     background-color: rgba(0, 0, 0, 0.5);
+     width: 100%;
+     height: 60px;
+}
+a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 30px;
+     margin-top: 30px;
+     margin: 20px;
+     transition: 1s;
+}
+a:hover{
+     color: blue;
+}
+.item{
+     margin-top: -30px;
+     letter-spacing: 15px;
+     font-weight: 600;
+     text-transform: uppercase;
+     padding-top: 190px;
+     color: #fff;
+     text-align: left;
+     display: inline-block;
+     padding-left: 150px;
+     font-size: 90px;
+}
+.content{
+     background: url(./img/bg.jpg) ;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 1366px;
+     height: 625px;
+     justify-content: space-between;
+}
+.Inputliter{
+     margin-top: 280px;
+     font-size: 22px;
+     background-color: rgba(0, 0, 0, 0.5);
+     border: 3px solid #fff;
+     padding: 5px 20px;
+     border-radius:10px;
+     color:#fff;
+}
+.InputGr{
+     margin-top: 25px;
+     font-size: 22px;
+     background-color: rgba(0, 0, 0, 0.5);
+     border: 3px solid #fff;
+     padding: 5px 20px;
+     border-radius:10px;
+     color:#fff;
+}
+.row{
+     column-count: 2;
+     column-gap: 50px;
+}
